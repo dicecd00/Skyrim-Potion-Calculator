@@ -1,10 +1,15 @@
 #include <iostream>
 #include <string>
 #include <iomanip>
+#include <vector>
+#include <sstream>
+#include <fstream>
 using namespace std;
 
 class ingredient {
   public:
+  string name;
+
   string effect_1;
   int effect_1_mag;
   int effect_1_dur;
@@ -30,6 +35,9 @@ class ingredient {
   double effect_4_valuemod;
 };
 
+ingredient ingred_1;
+ingredient ingred_2;
+
 class potion {
   public:
   string pEffect_1;
@@ -51,7 +59,79 @@ class potion {
   double pValue;
 };
 
+void readCSVFile(const string& fileName) {
+    ifstream file(fileName);
 
+    if (!file.is_open()) {
+        cerr << "Failed to open the file: " << fileName << endl;
+        return;
+    }
+
+    string line;
+
+     if (getline(file, line)) {}
+
+    getline(file, ingred_1.name, ',');
+    getline(file, ingred_1.effect_1, ',');
+    string nullstring;
+    getline(file, nullstring, ','); ingred_1.effect_1_mag = stoi(nullstring);
+    nullstring = "";
+    getline(file, nullstring, ','); ingred_1.effect_1_dur = stoi(nullstring);
+    nullstring = "";
+    getline(file, nullstring, ','); ingred_1.effect_1_cost = stoi(nullstring);
+    
+    getline(file, ingred_1.effect_2, ',');
+    getline(file, nullstring, ','); ingred_1.effect_2_mag = stoi(nullstring);
+    nullstring = "";
+    getline(file, nullstring, ','); ingred_1.effect_2_dur = stoi(nullstring);
+    nullstring = "";
+    getline(file, nullstring, ','); ingred_1.effect_2_cost = stoi(nullstring);
+
+    getline(file, ingred_1.effect_3, ',');
+    getline(file, nullstring, ','); ingred_1.effect_3_mag = stoi(nullstring);
+    nullstring = "";
+    getline(file, nullstring, ','); ingred_1.effect_3_dur = stoi(nullstring);
+    nullstring = "";
+    getline(file, nullstring, ','); ingred_1.effect_3_cost = stoi(nullstring);
+
+    getline(file, ingred_1.effect_4, ',');
+    getline(file, nullstring, ','); ingred_1.effect_4_mag = stoi(nullstring);
+    nullstring = "";
+    getline(file, nullstring, ','); ingred_1.effect_4_dur = stoi(nullstring);
+    nullstring = "";
+    getline(file, nullstring); ingred_1.effect_4_cost = stoi(nullstring);
+
+    //second ingredient
+    getline(file, ingred_2.name, ',');
+    getline(file, ingred_2.effect_1, ',');
+    getline(file, nullstring, ','); ingred_2.effect_1_mag = stoi(nullstring);
+    nullstring = "";
+    getline(file, nullstring, ','); ingred_2.effect_1_dur = stoi(nullstring);
+    nullstring = "";
+    getline(file, nullstring, ','); ingred_2.effect_1_cost = stoi(nullstring);
+    getline(file, ingred_2.effect_2, ',');
+    getline(file, nullstring, ','); ingred_2.effect_2_mag = stoi(nullstring);
+    nullstring = "";
+    getline(file, nullstring, ','); ingred_2.effect_2_dur = stoi(nullstring);
+    nullstring = "";
+    getline(file, nullstring, ','); ingred_2.effect_2_cost = stoi(nullstring);
+
+    getline(file, ingred_2.effect_3, ',');
+    getline(file, nullstring, ','); ingred_2.effect_3_mag = stoi(nullstring);
+    nullstring = "";
+    getline(file, nullstring, ','); ingred_2.effect_3_dur = stoi(nullstring);
+    nullstring = "";
+    getline(file, nullstring, ','); ingred_2.effect_3_cost = stoi(nullstring);
+
+    getline(file, ingred_2.effect_4, ',');
+    getline(file, nullstring, ','); ingred_2.effect_4_mag = stoi(nullstring);
+    nullstring = "";
+    getline(file, nullstring, ','); ingred_2.effect_4_dur = stoi(nullstring);
+    nullstring = "";
+    getline(file, nullstring, ','); ingred_2.effect_4_cost = stoi(nullstring);
+    
+
+}
 
 
 //object declarations for use in combinePotions and main
@@ -189,6 +269,13 @@ potion combinePotions(ingredient i1, ingredient i2, ingredient i3 = nullIngredie
         }
     }
     
+    if (potionToCombine.pEffect_1 == nullIngredient.effect_1) {
+        cout << "Potion creation unsuccessful." << endl;
+    }
+    else {
+        cout << endl << "Resulting potion:" << endl;
+        cout << potionToCombine.pEffect_1 << " + " << potionToCombine.pEffect_2 << " + " << potionToCombine.pEffect_3 << " + " << potionToCombine.pEffect_4 << endl;
+    }
     return potionToCombine;
 }
 
@@ -197,96 +284,43 @@ potion combinePotions(ingredient i1, ingredient i2, ingredient i3 = nullIngredie
 
 int main() 
 {
-    ingredient ingred_1;
-    ingredient ingred_2;
-
-    cout << "Enter 4 effects by effect name, magnitude, duration and cost." << endl << endl;
-    cout << "Ingredient 1" << endl << "=========================================================" << endl;
-    getline (cin,ingred_1.effect_1); cin >> ingred_1.effect_1_mag >> ingred_1.effect_1_dur >> ingred_1.effect_1_cost;
-    cin.ignore();
-    getline (cin,ingred_1.effect_2); cin >> ingred_1.effect_2_mag >> ingred_1.effect_2_dur >> ingred_1.effect_2_cost;
-    cin.ignore();
-    getline (cin,ingred_1.effect_3); cin >> ingred_1.effect_3_mag >> ingred_1.effect_3_dur >> ingred_1.effect_3_cost;
-    cin.ignore();
-    getline (cin,ingred_1.effect_4); cin >> ingred_1.effect_4_mag >> ingred_1.effect_4_dur >> ingred_1.effect_4_cost;
-
+    string fileName = "alchemy.csv"; // Replace with your file path
+    cout << "Reading data from " << fileName << ":\n";
+    readCSVFile(fileName);
+    cout << "Ingredient 1: " << ingred_1.name << endl;
     cout << "Effect Name       | Magnitude | Duration | Value Modifier" << endl;
     cout << "=========================================================" << endl;
     cout << left;
-    cout << setw(17) << ingred_1.effect_1 << " | " << setw(10) << ingred_1.effect_1_mag << "| " << setw(8) << ingred_1.effect_1_dur;
+    cout << setw(20) << ingred_1.effect_1 << " | " << setw(10) << ingred_1.effect_1_mag << "| " << setw(8) << ingred_1.effect_1_dur;
     cout << " | " << ingred_1.effect_1_cost << endl;
-    cout << setw(17) << ingred_1.effect_2 << " | " << setw(10) << ingred_1.effect_2_mag << "| " << setw(8) << ingred_1.effect_2_dur;
+    cout << setw(20) << ingred_1.effect_2 << " | " << setw(10) << ingred_1.effect_2_mag << "| " << setw(8) << ingred_1.effect_2_dur;
     cout << " | " << ingred_1.effect_2_cost << endl;
-    cout << setw(17) << ingred_1.effect_3 << " | " << setw(10) << ingred_1.effect_3_mag << "| " << setw(8) << ingred_1.effect_3_dur;
+    cout << setw(20) << ingred_1.effect_3 << " | " << setw(10) << ingred_1.effect_3_mag << "| " << setw(8) << ingred_1.effect_3_dur;
     cout << " | " << ingred_1.effect_3_cost << endl;
-    cout << setw(17) << ingred_1.effect_4 << " | " << setw(10) << ingred_1.effect_4_mag << "| " << setw(8) << ingred_1.effect_4_dur;
+    cout << setw(20) << ingred_1.effect_4 << " | " << setw(10) << ingred_1.effect_4_mag << "| " << setw(8) << ingred_1.effect_4_dur;
     cout << " | " << ingred_1.effect_4_cost;
     cout << endl << endl;
     
-/* 
-Restore Health
-10
-1
-1
-Restore Magicka
-10
-1
-1
-Restore Stamina
-10
-1
-1
-Paralyze
-1
-10
-1
-Damage Health
-10
-1
-1
-Damage Magicka
-10
-1
-1
-Slow
-1
-10
-1
-Paralyze
-1
-10
-1
-*/
     
-    
-    //manual ingredient entry to be replaced by file reading function
-    cout << "Enter 4 effects by effect name, magnitude, duration and value modifier." << endl << endl;
-    cout << "Ingredient 2" << endl << "=========================================================" << endl;
-    cin.ignore();
-    getline (cin,ingred_2.effect_1); cin >> ingred_2.effect_1_mag >> ingred_2.effect_1_dur >> ingred_2.effect_1_cost;
-    cin.ignore();
-    getline (cin,ingred_2.effect_2); cin >> ingred_2.effect_2_mag >> ingred_2.effect_2_dur >> ingred_2.effect_2_cost;
-    cin.ignore();
-    getline (cin,ingred_2.effect_3); cin >> ingred_2.effect_3_mag >> ingred_2.effect_3_dur >> ingred_2.effect_3_cost;
-    cin.ignore();
-    getline (cin,ingred_2.effect_4); cin >> ingred_2.effect_4_mag >> ingred_2.effect_4_dur >> ingred_2.effect_4_cost;
 
+
+    cout << "Ingredient 2: " << ingred_2.name << endl;
     cout << "Effect Name       | Magnitude | Duration | Value Modifier" << endl;
     cout << "=========================================================" << endl;
     cout << left;
-    cout << setw(17) << ingred_2.effect_1 << " | " << setw(10) << ingred_2.effect_1_mag << "| " << setw(8) << ingred_2.effect_1_dur;
+    cout << setw(20) << ingred_2.effect_1 << " | " << setw(10) << ingred_2.effect_1_mag << "| " << setw(8) << ingred_2.effect_1_dur;
     cout << " | " << ingred_2.effect_1_cost << endl;
-    cout << setw(17) << ingred_2.effect_2 << " | " << setw(10) << ingred_2.effect_2_mag << "| " << setw(8) << ingred_2.effect_2_dur;
+    cout << setw(20) << ingred_2.effect_2 << " | " << setw(10) << ingred_2.effect_2_mag << "| " << setw(8) << ingred_2.effect_2_dur;
     cout << " | " << ingred_2.effect_2_cost << endl;
-    cout << setw(17) << ingred_2.effect_3 << " | " << setw(10) << ingred_2.effect_3_mag << "| " << setw(8) << ingred_2.effect_3_dur;
+    cout << setw(20) << ingred_2.effect_3 << " | " << setw(10) << ingred_2.effect_3_mag << "| " << setw(8) << ingred_2.effect_3_dur;
     cout << " | " << ingred_2.effect_3_cost << endl;
-    cout << setw(17) << ingred_2.effect_4 << " | " << setw(10) << ingred_2.effect_4_mag << "| " << setw(8) << ingred_2.effect_4_dur;
+    cout << setw(20) << ingred_2.effect_4 << " | " << setw(10) << ingred_2.effect_4_mag << "| " << setw(8) << ingred_2.effect_4_dur;
     cout << " | " << ingred_2.effect_4_cost << endl;
     
     combinePotions(ingred_1, ingred_2);
-    cout << endl << "Resulting potion:" << endl;
-    cout << potionToCombine.pEffect_1 << " + " << potionToCombine.pEffect_2 << " + " << potionToCombine.pEffect_3 << " + " << potionToCombine.pEffect_4 << endl;
 
-    
+
+
+
     return 0;
 }
