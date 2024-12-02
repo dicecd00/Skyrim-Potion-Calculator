@@ -1,0 +1,94 @@
+Ingredient Name,First Effect,1st Magnitude,1st Duration,1st Cost,Second Effect,2nd Magnitude,2nd Duration,2nd Cost,Third Effect,3rd Magnitude,3rd Duration,3rd Cost,Fourth Effect,4th Magnitude,4th Duration,4th Cost
+Abecean Longfin,Weakness to Frost,3,30,1,Fortify Sneak,4,60,1,Weakness to Poison,2,30,1,Fortify Restoration,4,60,1
+Bear Claws,Restore Stamina,4,0,1,Fortify Health,4,60,1,Fortify One-Handed,4,60,1,Damage Magicka Regen,100,5,1
+Bee,Restore Stamina,5,0,1,Ravage Stamina,2,10,1,Regenerate Stamina,5,300,1,Weakness to Shock,3,30,1
+Beehive Husk,Resist Poison,2,60,1,Fortify Light Armor,2,60,1,Fortify Sneak,2,60,1,Fortify Destruction,5,60,1
+Berits Ashes,Damage Stamina,3,0,1,Resist Fire,3,60,1,Fortify Conjuration,5,60,1,Ravage Stamina,2,10,1
+Bleeding Crown,Weakness to Fire,3,30,1,Fortify Block,4,60,1,Weakness to Poison,2,30,1,Resist Magic,1,60,1
+Blisterwort,Damage Stamina,3,0,1,Frenzy,1,10,1,Restore Health,3,0,1,Fortify Smithing,4,30,1
+Blue Butterfly Wing,Damage Stamina,3,0,1,Fortify Conjuration,5,60,1,Damage Magicka Regen,100,5,1,Fortify Enchanting,1,30,1
+Blue Dartwing,Resist Shock,3,60,1,Fortify Pickpocket,4,60,1,Restore Health,50,0,1,Fear,1,30,1
+Blue Mountain Flower,Restore Health,5,0,1,Fortify Conjuration,5,60,1,Fortify Health,4,60,1,Damage Magicka Regen,100,5,1
+Bone Meal,Damage Stamina,3,0,1,Resist Fire,3,60,1,Fortify Conjuration,5,60,1,Ravage Stamina,2,10,1
+Briar Heart,Restore Magicka,5,0,1,Fortify Block,2,60,1,Paralysis,0,1,1,Fortify Magicka,4,60,1
+Butterfly Wing,Restore Health,5,0,1,Fortify Barter,1,30,1,Lingering Damage Stamina,1,10,1,Damage Magicka,3,0,1
+Canis Root,Damage Stamina,3,0,1,Fortify One-Handed,4,60,1,Fortify Marksman,4,60,1,Paralysis,0,1,1
+Charred Skeever Hide,Restore Stamina,5,0,1,Cure Disease,2,0,1,Resist Poison,4,60,1,Restore Health,5,0,1
+Chaurus Eggs,Weakness to Poison,2,30,1,Fortify Stamina,4,60,1,Damage Magicka,3,0,1,Invisibility,0,4,1
+Chickens Egg,Resist Magic,1,60,1,Damage Magicka Regen,100,5,1,Waterbreathing,0,5,1,Lingering Damage Stamina,1,10,1
+Creep Cluster,Restore Magicka,5,0,1,Damage Stamina Regen,100,5,1,Fortify Carry Weight,4,300,1,Weakness to Magic,2,30,1
+Crimson Nirnroot,Damage Health,6,1,1,Damage Stamina,9,0,1,Invisibility,0,4,1,Resist Magic,1,60,1
+Cyrodilic Spadetail,Damage Stamina,3,0,1,Fortify Restoration,4,60,1,Fear,1,30,1,Ravage Health,2,10,1
+Daedra Heart,Restore Health,5,0,1,Damage Stamina Regen,100,5,1,Damage Magicka,3,0,1,Fear,1,30,1
+Deathbell,Damage Health,3,1,1,Ravage Stamina,2,20,1,Slow,50,5,1,Weakness to Poison,2,30,1
+Dragons Tongue,Resist Fire,3,60,1,Fortify Barter,1,30,1,Fortify Illusion,1,60,1,Fortify Two-handed,4,60,1
+Dwarven Oil,Weakness to Magic,2,30,1,Fortify Illusion,4,60,1,Regenerate Magicka,5,300,1,Restore Magicka,5,0,1
+Ectoplasm,Restore Magicka,5,0,1,Fortify Destruction,4,60,1,Fortify Magicka,4,60,1,Damage Health,2,1,1
+Elves Ear,Restore Magicka,5,0,1,Fortify Marksman,4,60,1,Weakness to Frost,2,30,1,Resist Fire,3,30,1
+Eye of Sabre Cat,Restore Stamina,5,0,1,Ravage Health,2,10,1,Damage Magicka,3,0,1,Restore Health,5,0,1
+Falmer Ear,Damage Health,2,1,1,Frenzy,1,10,1,Resist Poison,4,60,1,Fortify Lockpicking,2,30,1
+Fire Salts,Weakness to Frost,3,30,1,Resist Fire,3,60,1,Restore Magicka,6,0,1,Regenerate Magicka,5,300,1
+Fly Amanita,Resist Fire,3,60,1,Fortify Two-handed,4,60,1,Frenzy,1,10,1,Regenerate Stamina,5,300,1
+Frost Mirriam,Resist Frost,3,60,1,Fortify Sneak,4,60,1,Ravage Magicka,2,10,1,Damage Stamina Regen,100,5,1
+Frost Salts,Weakness to Fire,3,30,1,Resist Frost,3,60,1,Restore Magicka,5,0,1,Fortify Conjuration,5,60,1
+Garlic,Resist Poison,4,60,1,Fortify Stamina,4,60,1,Regenerate Magicka,5,300,1,Regenerate Health,5,300,1
+Giant Lichen,Weakness to Shock,3,30,1,Ravage Health,2,10,1,Weakness to Poison,2,30,1,Restore Magicka,5,0,1
+Giants Toe,Damage Stamina,3,0,1,Fortify Health,4,300,1,Fortify Carry Weight,4,300,1,Damage Stamina Regen,100,5,1
+Glow Dust,Damage Magicka,3,0,1,Damage Magicka Regen,100,5,1,Fortify Destruction,5,60,1,Resist Shock,3,60,1
+Glowing Mushroom,Resist Shock,3,60,1,Fortify Destruction,5,60,1,Fortify Smithing,4,30,1,Fortify Health,4,60,1
+Grass Pod,Resist Poison,4,60,1,Ravage Magicka,2,10,1,Fortify Alteration,4,60,1,Restore Magicka,5,0,1
+Hagraven Claw,Resist Magic,1,60,1,Lingering Damage Magicka,1,10,1,Fortify Enchanting,1,30,1,Fortify Barter,1,30,1
+Hagraven Feathers,Damage Magicka,3,0,1,Fortify Conjuration,5,60,1,Frenzy,1,10,1,Weakness to Shock,3,30,1
+Hanging Moss,Damage Magicka,3,0,1,Fortify Health,4,60,1,Damage Magicka Regen,100,5,1,Fortify One-Handed,4,60,1
+Hawk Beak,Restore Stamina,5,0,1,Resist Frost,3,60,1,Fortify Carry Weight,4,300,1,Resist Shock,3,60,1
+Hawk Feathers,Cure Disease,2,0,1,Fortify Light Armor,2,60,1,Fortify One-Handed,4,60,1,Fortify Sneak,4,60,1
+Histcarp,Restore Stamina,5,0,1,Fortify Magicka,4,60,1,Damage Stamina Regen,100,5,1,Waterbreathing,0,5,1
+Honeycomb,Restore Stamina,5,0,1,Fortify Block,2,60,1,Fortify Light Armor,2,60,1,Ravage Stamina,2,10,1
+Human Flesh,Damage Health,2,1,1,Paralysis,0,1,1,Restore Magicka,5,0,1,Fortify Sneak,4,60,1
+Human Heart,Damage Health,2,1,1,Damage Magicka,3,0,1,Damage Magicka Regen,100,5,1,Frenzy,1,10,1
+Ice Wraith Teeth,Weakness to Frost,3,30,1,Fortify Heavy Armor,2,60,1,Invisibility,0,4,1,Weakness to Fire,3,30,1
+Imp Stool,Damage Health,2,1,1,Lingering Damage Health,1,10,1,Paralysis,0,1,1,Restore Health,3,0,1
+Jarrin Root,Damage Health,200,1,1,Damage Magicka,3,0,1,Damage Stamina,3,0,1,Damage Magicka Regen,100,5,1
+Jazbay Grapes,Weakness to Magic,2,30,1,Fortify Magicka,4,60,1,Regenerate Magicka,5,300,1,Ravage Health,2,10,1
+Juniper Berries,Weakness to Fire,3,30,1,Fortify Marksman,4,60,1,Regenerate Health,5,300,1,Damage Stamina Regen,100,5,1
+Large Antlers,Restore Stamina,5,0,1,Fortify Stamina,4,60,1,Slow,5,30,1,Damage Stamina Regen,100,5,1
+Lavender,Resist Magic,1,60,1,Fortify Stamina,4,60,1,Ravage Magicka,2,10,1,Fortify Conjuration,4,60,1
+Luna Moth Wing,Damage Magicka,3,0,1,Fortify Light Armor,2,60,1,Regenerate Health,5,300,1,Invisibility,0,4,1
+Moon Sugar,Weakness to Fire,3,30,1,Resist Frost,3,60,1,Restore Magicka,5,0,1,Regenerate Magicka,5,300,1
+Mora Tapinella,Restore Magicka,5,0,1,Lingering Damage Health,1,10,1,Regenerate Stamina,5,300,1,Fortify Illusion,4,60,1
+Mudcrab Chitin,Restore Stamina,5,0,1,Cure Disease,5,0,1,Resist Poison,4,60,1,Resist Fire,3,60,1
+Namiras Rot,Damage Magicka,3,0,1,Fortify Lockpicking,2,30,1,Fear,1,30,1,Regenerate Health,5,300,1
+Nightshade,Damage Health,2,1,1,Damage Magicka Regen,100,5,1,Lingering Damage Stamina,1,10,1,Fortify Destruction,4,60,1
+Nirnroot,Damage Health,2,0,1,Damage Stamina,3,0,1,Invisibility,0,4,1,Resist Magic,1,60,1
+Nordic Barnacle,Damage Magicka,3,0,1,Waterbreathing,0,5,1,Regenerate Health,5,300,1,Fortify Pickpocket,4,60,1
+Orange Dartwing,Restore Stamina,5,0,1,Ravage Magicka,2,10,1,Fortify Pickpocket,4,60,1,Lingering Damage Health,1,10,1
+Pearl,Restore Stamina,5,0,1,Fortify Block,4,60,1,Restore Magicka,5,0,1,Resist Shock,2,60,1
+Pine Thrush Egg,Restore Stamina,5,0,1,Fortify Lockpicking,2,30,1,Weakness to Poison,2,30,1,Resist Shock,3,60,1
+Powdered Mammoth Tusk,Restore Stamina,5,0,1,Fortify Sneak,4,60,1,Weakness to Fire,3,30,1,Fear,1,30,1
+Purple Mountain Flower,Restore Stamina,5,0,1,Fortify Sneak,4,60,1,Lingering Damage Magicka,1,10,1,Resist Frost,3,60,1
+Red Mountain Flower,Restore Magicka,5,0,1,Ravage Magicka,2,10,1,Fortify Magicka,4,60,1,Damage Health,2,1,1
+River Betty,Damage Health,5,0,1,Fortify Alteration,4,60,1,Slow,50,5,1,Fortify Carry Weight,4,300,1
+Rock Warbler Egg,Restore Health,5,0,1,Fortify One-Handed,4,60,1,Damage Stamina,3,0,1,Weakness to Magic,2,30,1
+Sabre Cat Tooth,Restore Stamina,5,0,1,Fortify Heavy Armor,2,60,1,Fortify Smithing,4,30,1,Weakness to Poison,2,30,1
+Salt Pile,Weakness to Magic,2,30,1,Fortify Restoration,4,60,1,Slow,50,5,1,Regenerate Magicka,5,300,1
+Scaly Pholiota,Weakness to Magic,2,30,1,Fortify Illusion,4,60,1,Regenerate Stamina,5,300,1,Fortify Carry Weight,4,300,1
+Silverside Perch,Restore Stamina,5,0,1,Damage Stamina Regen,100,5,1,Ravage Health,2,10,1,Resist Frost,3,60,1
+Skeever Tail,Damage Stamina Regen,100,5,1,Ravage Health,2,10,1,Damage Health,2,1,1,Fortify Light Armor,2,60,1
+Slaughterfish Egg,Resist Poison,4,60,1,Fortify Pickpocket,4,60,1,Lingering Damage Health,1,10,1,Fortify Stamina,4,60,1
+Slaughterfish Scales,Resist Frost,3,60,1,Lingering Damage Health,1,10,1,Fortify Heavy Armor,2,60,1,Fortify Block,4,60,1
+Small Antlers,Weakness to Poison,2,30,1,Fortify Restoration,4,60,1,Lingering Damage Stamina,1,10,1,Damage Health,2,1,1
+Small Pearl,Restore Stamina,5,0,1,Fortify One-Handed,4,60,1,Fortify Restoration,4,60,1,Resist Frost,3,60,1
+Snowberries,Resist Fire,3,60,1,Fortify Enchanting,1,30,1,Resist Frost,3,60,1,Resist Shock,3,60,1
+Spider Egg,Damage Stamina,3,0,1,Damage Magicka Regen,100,5,1,Fortify Lockpicking,2,30,1,Fortify Marksman,4,60,1
+Spriggan Sap,Damage Magicka Regen,100,5,1,Fortify Enchanting,1,30,1,Fortify Smithing,4,30,1,Fortify Alteration,4,60,1
+Swamp Fungal Pod,Resist Shock,3,60,1,Lingering Damage Magicka,1,10,1,Paralysis,0,1,1,Restore Health,5,0,1
+Taproot,Weakness to Magic,2,30,1,Fortify Illusion,4,60,1,Regenerate Magicka,5,300,1,Restore Magicka,5,0,1
+Thistle Branch,Resist Frost,3,60,1,Ravage Stamina,2,10,1,Resist Poison,3,0,1,Fortify Heavy Armor,2,60,1
+Torchbug Thorax,Restore Stamina,5,0,1,Lingering Damage Magicka,1,10,1,Weakness to Magic,2,30,1,Fortify Stamina,4,60,1
+Troll Fat,Resist Poison,4,60,1,Fortify Two-handed,4,60,1,Frenzy,1,10,1,Damage Health,2,1,1
+Tundra Cotton,Resist Magic,1,60,1,Fortify Magicka,4,60,1,Fortify Block,4,60,1,Fortify Barter,1,30,1
+Vampire Dust,Invisibility,0,4,1,Restore Magicka,5,0,1,Regenerate Health,5,300,1,Cure Disease,5,0,1
+Void Salts,Weakness to Shock,3,30,1,Resist Magic,1,60,1,Damage Health,2,1,1,Fortify Magicka,4,60,1
+Wheat,Restore Health,5,0,1,Fortify Health,4,60,1,Damage Stamina Regen,100,5,1,Lingering Damage Magicka,1,10,1
+White Cap,Weakness to Frost,3,30,1,Fortify Heavy Armor,2,60,1,Restore Magicka,5,0,1,Ravage Magicka,2,10,1
+Wisp Wrappings,Restore Stamina,5,0,1,Fortify Destruction,5,60,1,Fortify Carry Weight,4,300,1,Resist Magic,1,60,1
